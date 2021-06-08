@@ -4,19 +4,29 @@
 			<g-link class="nav-link" to="/"><home-icon /></g-link>
 		</div>
 		<div class="nav-item">
-			<g-link class="nav-link" to="/about/">Work</g-link>
+			<g-link class="nav-link" to="/about/">
+				<flip-title title="Work" title-on-hover="काम" :vertical="true" />
+			</g-link>
 		</div>
 		<div class="nav-item">
-			<a href="#" class="nav-link" onclick="return false" @click="toggleAboutMenu">About</a>
+			<a href="#" class="nav-link" onclick="return false" @click="toggleAboutMenu">
+				<flip-title title="About Us" title-on-hover="हमारे बारे में" :vertical="true" />
+			</a>
 			<div class="sub-menu" v-if="!isAboutMenuOpen">
 				<div class="nav-item">
-					<g-link class="nav-link" to="/about/">Who we are</g-link>
+					<g-link class="nav-link" to="/about/">
+						<flip-title title="Who we are" title-on-hover="हम कौन हैं" :vertical="true" />
+					</g-link>
 				</div>
 				<div class="nav-item">
-					<g-link class="nav-link" to="/about/">Careers</g-link>
+					<g-link class="nav-link" to="/about/">
+						<flip-title title="Careers" title-on-hover="व्यवसाय" :vertical="true" />
+					</g-link>
 				</div>
 				<div class="nav-item">
-					<g-link class="nav-link" to="/about/">Insights</g-link>
+					<g-link class="nav-link" to="/about/">
+						<flip-title title="Insights" title-on-hover="अंतर्दृष्टि" :vertical="true" />
+					</g-link>
 				</div>
 			</div>
 		</div>
@@ -26,10 +36,11 @@
 <script>
 
 import HomeIcon from '~/assets/svgs/icons/Home.svg';
+import FlipTitle from '../components/FlipTitle.vue';
 
 export default {
 	name: 'PrimaryMenu',
-	components: { HomeIcon },
+	components: { HomeIcon, 'flip-title': FlipTitle },
 	data() {
 		return {
 			isAboutMenuOpen: false,
@@ -55,6 +66,7 @@ export default {
 
 	.nav-item {
 		@apply inline-block;
+		@apply align-bottom;
 
 		@apply my-2;
 		@apply font-sans;

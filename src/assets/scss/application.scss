@@ -5,5 +5,11 @@
 @tailwind utilities;
 
 html, body {
-	@apply h-full w-full;
+	@apply h-full w-full relative;
+}
+
+.feather {
+	// @apply inline-block;
+	
+	
 }
