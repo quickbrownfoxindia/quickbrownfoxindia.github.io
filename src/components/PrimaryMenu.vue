@@ -1,14 +1,29 @@
 <template>
 	<div class="component primary-menu">
-		<div class="nav-item">
+		<div class="nav-item -m-1">
 			<g-link class="nav-link" to="/"><home-icon /></g-link>
 		</div>
 		<div class="nav-item">
-			<g-link class="nav-link" to="/about/">
+			<g-link class="nav-link" to="/work/">
 				<flip-title title="Work" title-on-hover="काम" :vertical="true" />
 			</g-link>
 		</div>
 		<div class="nav-item">
+			<g-link class="nav-link" to="/about/">
+				<flip-title title="Who we are" title-on-hover="हम कौन हैं" :vertical="true" />
+			</g-link>
+		</div>
+		<div class="nav-item">
+			<g-link class="nav-link" to="/careers/">
+				<flip-title title="Careers" title-on-hover="व्यवसाय" :vertical="true" />
+			</g-link>
+		</div>
+		<div class="nav-item">
+			<g-link class="nav-link" to="/contact/">
+				<g-link to="/contact/"><flip-title title="contact us" title-on-hover="संपर्क करें" :vertical="true"/></g-link>
+			</g-link>
+		</div>
+		<!-- <div class="nav-item">
 			<a href="#" class="nav-link" onclick="return false" @click="toggleAboutMenu">
 				<flip-title title="About Us" title-on-hover="हमारे बारे में" :vertical="true" />
 			</a>
@@ -29,7 +44,7 @@
 					</g-link>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </template>
 

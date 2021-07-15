@@ -13,4 +13,21 @@ module.exports = function (api) {
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
   })
+
+  api.createPages(async ({ graphql, createPage }) => {
+
+	const projects = await require('./src/data/projects.json');
+
+	
+	projects.forEach( project  => {
+		createPage({
+			path: `/work/${project.slug}`,
+			component: './src/templates/Work.vue',
+			context: {
+				project: project
+			}
+		})
+	})
+
+  })
 }
