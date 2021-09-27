@@ -8,26 +8,16 @@
 							class="w-full h-full object-cover"
 							:src="require('!!assets-loader?!@images/home-page/driving-ford.jpg').src"
 						></g-image> -->
-						<video 
-							class="w-full h-full object-cover"
-							muted
-							playsinline
-							autoplay
-							loop
-							:src="require('!!assets-loader?!@assets/work/iwd-2021/iwd21.mp4').src"
-						>
-						</video>
+						
 					</div>
 					<div class="overlay"></div>
 					<div data-swiper-parallax="-200"  data-swiper-parallax-duration="600" class="z-50">
 						<div class="content">
 							<div class="title">
-								<g-link to="/work/iwd-2021" class="h-full w-full">
 								International<br/>Women's Day<br/>
-								</g-link>
 							</div>
 							<div class="link">
-								<!-- <g-link to="/work/iwd-2021/">Learn More</g-link> -->
+
 							</div>
 						</div>
 					</div>
@@ -49,7 +39,6 @@
 								Akiva<br/>Superfoods
 							</div>
 							<div class="link">
-								<!-- <g-link to="/work/iwd-2021/">Learn More</g-link> -->
 							</div>
 						</div>
 					</div>
@@ -58,7 +47,7 @@
 			</div>
 			<!-- Add Pagination -->
 			<!-- <div class="swiper-pagination"></div> -->
-			<div class="swiper-button-next">
+			<!-- <div class="swiper-button-next">
 				
 				<svg class="text-white" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					viewBox="0 0 490.688 490.688" style="enable-background:new 0 0 490.688 490.688;" xml:space="preserve">
@@ -72,7 +61,7 @@
 					C250.748,372.281,248.039,373.408,245.213,373.415z"/>
 				<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
 
-			</div>
+			</div> -->
 		</div>
 	</div>
 

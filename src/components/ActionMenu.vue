@@ -3,13 +3,16 @@
 		<div class="nav-item">
 			<div class="sub-menu" v-if="isMoreMenuOpen">
 				<div class="nav-item">
-					<a class="nav-link" href="/about/" target="_blank"><FacebookIcon /></a>
+					<a class="nav-link" href="https://www.facebook.com/quickbrownfoxindia" target="_blank"><FacebookIcon /></a>
 				</div>
 				<div class="nav-item">
-					<a class="nav-link" href="/" target="_blank"><LinkedinIcon /></a>
+					<a class="nav-link" href="https://www.linkedin.com/company/quickbrownfox/mycompany/?viewAsMember=true" target="_blank"><LinkedinIcon /></a>
 				</div>
 				<div class="nav-item">
-					<a class="nav-link" href="/about/" target="_blank"><InstagramIcon /></a>
+					<a class="nav-link" href="https://www.instagram.com/quickbrownfoxindia/" target="_blank"><InstagramIcon /></a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="https://www.behance.net/quickbrownfoxindia" target="_blank"><BehanceIcon /></a>
 				</div>
 				<div class="nav-item">
 					<a class="nav-link" href="https://docs.google.com/document/d/1cGBQrT-XAdjX_9Pc95Epj329TG43X4DACU4EnI3EnSo/edit?usp=sharing" target="_blank">privacy</a>
@@ -36,6 +39,7 @@ import FacebookIcon from '~/assets/svgs/icons/facebook.svg';
 import InstagramIcon from '~/assets/svgs/icons/instagram.svg';
 import MaximiseIcon from '~/assets/svgs/icons/maximise.svg';
 import MinimiseIcon from '~/assets/svgs/icons/minimise.svg';
+import BehanceIcon from '~/assets/svgs/icons/behance.svg';
 
 export default {
 	name: 'ActionMenu',

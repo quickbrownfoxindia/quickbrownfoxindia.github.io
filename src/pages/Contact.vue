@@ -2,15 +2,15 @@
 	<Layout>
 		<div class="page about">
 			<div class="section hero py-96 block">
-				<h1 class="font-black mt-4">Quick Brown Fox</h1>
-				<p class=""><map-pin /> C2, Sector 1, Noida - 201301</p>
-				<p class="mb-4"><mail-icon /> hello@qbf.company</p>
-				<h3 class="font-black mt-4">Work with us</h3>
+				<h1 class="font-bold mt-4">Quick Brown Fox</h1>
+				<p class="mt-3"><map-pin /> C2, Sector 1, Noida - 201301</p>
+				<p class="mb-4 mt-2"><mail-icon /> hello@qbf.company</p>
+				<h4 class="font- mt-4">Work with us</h4>
 				<p>What’s next for your business? We’re here to help you achieve it.</p>
 				<p class="mb-4"><a class="underline" href="https://forms.gle/v2SPJ545xv8ETp2n8" target="_blank">Get in touch</a></p>
-				<h3 class="font-black mt-4">General Enquiries</h3>
+				<h4 class="font- mt-4">General Enquiries</h4>
 				<p class="mb-4"><a class="underline" href="mailto:hello@qbf.company">hello@qbf.company</a></p>
-				<h3 class="font-black mt-4">Crisis Management</h3>
+				<h4 class="font- mt-4">Crisis Management</h4>
 				<p class="mb-4"><a class="underline" href="mailto:neeraj@qbf.company">neeraj@qbf.company</a></p>
 				<p class="my-2">
 					<a class="inline-block mx-2 ml-0" href="https://fb.me/quickbrownfoxindia/" target="_blank"><FacebookIcon /></a>

@@ -3,12 +3,12 @@
 		<div class="page about">
 			<div class="section hero py-96 block">
 				<h1 class="font-black mt-4">Careers @ Quick Brown Fox</h1>
-				<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi</p>
+				<p class="mb-4">Join our team in Noida to help reshape the marketing and touch the whole planet. Explore available careers opportunities below.</p>
 				<p class="mb-4">
-					<external-link-icon /> <a class="underline" href="https://www.linkedin.com/company/quickbrownfox/jobs/?viewAsMember=true" target="_blank">View current openings</a>
+					<external-link-icon />&nbsp;<a class="underline" href="https://www.linkedin.com/company/quickbrownfox/jobs/?viewAsMember=true" target="_blank">View current openings</a>
 				</p>
 				<p class="mb-4">
-					<mail-icon /><a class="underline" href="mailto:hello@qbf.company" target="_blank">or email us on hello@qbf.company</a>
+					<mail-icon />&nbsp;<a class="underline" href="mailto:hello@qbf.company" target="_blank">or email us on hello@qbf.company</a>
 				</p>
 			</div>
 		</div>

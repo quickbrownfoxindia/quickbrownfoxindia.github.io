@@ -16,8 +16,18 @@ const postcssPlugins = [
 module.exports = {
 //	siteUrl: 'https://quickbrownfoxindia.github.io',
   
-	siteName: 'QBF',
-	plugins: [],
+	// siteUrl: 'https://quickbrownfoxindia.github.io',
+	siteName: 'Quick Brown Fox',
+	plugins: [
+		{
+			use: 'gridsome-plugin-gtag',
+			options: {
+				config: {
+					id: process.env.GOOGLE_ANALYTICS_ID,
+				},
+			},
+		},
+	],
 	css: {
         loaderOptions: {
             postcss: {

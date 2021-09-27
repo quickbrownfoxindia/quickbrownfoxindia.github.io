@@ -3,7 +3,7 @@
 		<div class="nav-item -m-1">
 			<g-link class="nav-link" to="/"><home-icon /></g-link>
 		</div>
-		<div class="nav-item">
+		<!-- <div class="nav-item">
 			<g-link class="nav-link" to="/work/">
 				<flip-title title="Work" title-on-hover="काम" :vertical="true" />
 			</g-link>
@@ -12,7 +12,7 @@
 			<g-link class="nav-link" to="/about/">
 				<flip-title title="Who we are" title-on-hover="हम कौन हैं" :vertical="true" />
 			</g-link>
-		</div>
+		</div> -->
 		<div class="nav-item">
 			<g-link class="nav-link" to="/careers/">
 				<flip-title title="Careers" title-on-hover="व्यवसाय" :vertical="true" />
@@ -50,7 +50,7 @@
 
 <script>
 
-import HomeIcon from '~/assets/svgs/icons/Home.svg';
+import HomeIcon from '~/assets/svgs/icons/home.svg';
 import FlipTitle from '../components/FlipTitle.vue';
 
 export default {
