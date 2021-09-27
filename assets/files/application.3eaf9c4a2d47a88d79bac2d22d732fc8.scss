@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html, body {
+	@apply h-full w-full relative;
+	@apply bg-black;
+}
+
+.feather {
+	// @apply inline-block;	
+}
